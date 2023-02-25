@@ -1,0 +1,66 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<form action="#" method="post">
+    <p> Input: </p>
+    <p><input type="text" name="nm" /></p>
+    <p><input type="submit" value="Show Output"/></p>
+</form>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Application</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #a1d1e2;
+  color: white;
+  font-size: 20px;
+}
+
+/* Page Content */
+.content {
+    padding:10px;
+    }
+.new {
+    column-count: 3;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Open Ended Question Marker</h1>
+</div>
+
+
+  <form action="{{ url_for("ans")}}" method="post">
+    <h3 class="h3 mb-3 font-weight-normal" style="text-align: center;">Q 1.What is Mitochondria ?. (Marks 100)</h3>
+    <textarea name="nm1" rows="5" cols="100" title="Answer" style="margin-left: 25%;"></textarea>
+    <!-- <p><input type="text" name="nm" /></p> -->
+  <!-- <p><input type="submit" value="Check" style="margin-left: 50%;"/></p> -->
+    <h3 class="h3 mb-3 font-weight-normal" style="text-align: center;">Q 2.What is Machine Learning ?. (Marks 100)</h3>
+    <textarea name="nm2" rows="5" cols="100" title="Answer" style="margin-left: 25%;"></textarea>
+    <!-- <p><input type="text" name="nm" /></p> -->
+    <p><input type="submit" value="Check answers" style="margin-left: 50%;"/></p>
+    <!-- <form action="#" method="post">
+        <p> <b>What is Machine Learning? </b></p>
+        <p><input type="text" name="nm1" /></p>
+        <p><input type="submit" value="Check"/></p> -->
+</form>
+</div>
+
+</body>
+</html>
