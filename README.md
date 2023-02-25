@@ -14,4 +14,4 @@ This file contains the code of the model along with the frontend files in the te
 ![image](https://user-images.githubusercontent.com/107244393/221377376-816f871e-1826-47c1-8f59-e66d2586e028.png)
 
 - #### text_extraction.ipynb
-This file contains code for extracting text from the pdf. Further, the answers are seperated from the pdf in an array which can be further integrated with the model. 
+This file contains code for extracting the text from the pdf. Further, the answers are seperated from the pdf in an array which can be further integrated with the model. 
