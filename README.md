@@ -1,5 +1,5 @@
 # Open-Ended-Question-Marker
-This TRAIVIS Project is focused on building a working model which would grade the students based on the answers they submit to a subjective question using Machine Learning, Natural Language Processing.
+This TRAIVIS Project is focused on building a working model which would grade the students based on the answers they submit to subjective questions using Machine Learning, Natural Language Processing.
 
 Download GoogleNews-vectors-negative300.bin which is used in the model:
 https://www.kaggle.com/datasets/leadbest/googlenewsvectorsnegative300
